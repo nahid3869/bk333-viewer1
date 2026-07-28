@@ -1,0 +1,24 @@
+<resources>
+    <style name="Theme.BK333Viewer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSurface">@color/primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="Theme.BK333Viewer.Dark" parent="Theme.BK333Viewer">
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="android:backgroundDimColor">@color/primary_dark</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+</resources>
