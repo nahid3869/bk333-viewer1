@@ -1,0 +1,14 @@
+<resources>
+    <color name="primary">#111a3a</color>
+    <color name="primary_dark">#0a0e27</color>
+    <color name="accent">#f59e0b</color>
+    <color name="green">#22c55e</color>
+    <color name="red">#ef4444</color>
+    <color name="background">#0a0e27</color>
+    <color name="card_background">#0d1530</color>
+    <color name="text_primary">#ffffff</color>
+    <color name="text_secondary">#7a86b0</color>
+    <color name="button_bg">#1f2a52</color>
+    <color name="nav_selected">#f59e0b</color>
+    <color name="nav_unselected">#7a86b0</color>
+</resources>
